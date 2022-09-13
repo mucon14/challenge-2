@@ -1,0 +1,184 @@
+body{
+    background-color: #f3f5fc;
+}
+
+.logo{
+    position: absolute;
+    width: 120px;
+    margin: 24%;
+    margin: 2% 1% 2% 140%;
+}
+
+header{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 120px;
+    height: 48px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonesMenu{
+    position: absolute;
+    top: 45%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 317px;
+    
+}
+
+.iniciar{
+    width: 260px;
+    height: 90px;
+    border-radius: 16px;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-color: #000;
+    cursor: pointer;
+}
+
+.agregar{
+    width: 260px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: #f3f5fc;
+    color: #0A3871;
+    border-color: #0A3871;
+    cursor: pointer;
+}
+
+.botonesAgregar{
+    position: absolute;
+    top: 65%;    
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    width: 317px;
+    display: none;
+
+}
+
+.nuevaPalabra{
+    position: absolute;
+    top: 32%;
+    width: 500px;
+    height: 150px;
+    font-size: 24px;
+    border-radius: 16px;
+    border-color: #f3f5fc;
+    padding: 15px;
+    display: none;
+    background: transparent;
+}
+
+.guardar, .nuevo{
+    width: 300px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-color: #000;
+    cursor: pointer;
+}
+
+.cancelar, .desistir{
+    width: 300px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #f3f5fc;
+    color: #0A3871;
+    border-color: #0A3871;
+    cursor: pointer;
+}
+
+.juego{
+    position: absolute;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 1200px;
+    height: 1000px;
+    display: none;
+}
+
+.botonesJuego{
+    position: absolute;
+    top: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-distribucion .footer-izquierda p {
+    font-size: 15px;
+    margin: 0px;
+    margin-left: 500px;
+    margin-top: 820px;
+  }
+
+  .footer-distribucion p.footer-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0A3871;
+    transition: ease .25s;
+    display: inline-block;
+    line-height: 3;
+    text-decoration: none;
+    transition: ease .25s;
+  }
+
+  
+.footer-distribucion .footer-a-la-derecha {
+    float: right;
+    margin-top: 55px;
+    max-width: 180px;
+    margin-right: 250px;
+  }
+
+  .footer-distribucion .footer-a-la-derecha a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    background-image: url("imagenes/linkedin.png");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+  }
+
+  .footer-distribucion .footer-a-la-derecha a + a{
+    background-image: url("imagenes/GitHub-Mark-32px.png");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35px;
+}
+
+.footer-distribucion .footer-a-la-derecha a:hover{transform:scale(1.3); -webkit-transform:scale(1.3);}
+
+@media (max-width: 600px) {
+    .footer-distribucion .footer-izquierda, .footer-distribucion .footer-a-la-derecha {
+      text-align: center;
+    }
+}
+
+.footer-distribucion .footer-izquierda p.footer-titulo {
+    line-height: 1.8;
+  }

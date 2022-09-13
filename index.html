@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Juego del ahorcado</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        
+        <header>
+            <img class="logo" src="imagenes/logoalura.png" alt="Logo Alura">
+        </header>
+
+        <main>
+
+            <textarea class="nuevaPalabra" placeholder="Ingrese una palabra, máximo de 8 caracteres."></textarea>
+
+            <section class="botonesMenu">
+                    <button class="iniciar" onclick="btnIniciar()">Iniciar juego</button>
+                    <button class="agregar" onclick="btnAgregar()">Agregar nueva palabra</button>
+            </section>
+
+            <section class="botonesAgregar">
+                <button class="guardar" onclick="btnGuardar()">Guardar y empezar</button>
+                <button class="cancelar" onclick="btnCancelar()">Cancelar</button>
+            </section>
+
+            <section class="juego">
+
+                <div class="lienzo"><canvas width="1200" height="780" ></canvas></div>
+
+                <div class="botonesJuego">
+                    <button class="nuevo" onclick="btnNuevo()">Nuevo juego</button>
+                    <button class="desistir" onclick="btnDesistir()">Desistir</button>
+                </div>
+                
+            </section>
+
+        </main>
+
+		<footer class="footer-distribucion">
+			<div class="footer-a-la-derecha">
+				<a href="https://www.linkedin.com/in/lucas-gabriel-gonzalez-006735246/"></a>
+				<a href="https://github.com/mucon14"></a>
+			</div>
+
+			<div class="footer-izquierda">
+				<p class="footer-titulo">Copyright © 2022. Todos los derechos reservados. </p>
+			</div>
+		</footer>
+
+        <script src="script.js"></script>
+   
+    </body>
+	
+
+</html>
+
